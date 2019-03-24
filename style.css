@@ -1,62 +1,96 @@
-* {
-  padding: 0;
-  margin: 0;
-}
-
 html {
   background-color: white;
   font-family: 'Lato', sans-serif;
-  font-size: 20px;
   color: #1d2b42;
-  margin: 24px;
+  margin: 0;
+  padding: 0;
+
 }
 
 p {
-  margin: 10px;
   line-height: 175%;
+  font-size: 1.8em;
 }
 
 li {
-  margin: 10px 10px 10px 40px;
+  line-height: 175%;
+  font-size: 1.8em;
 }
 
 h1 {
-  margin: 10px;
-  font-size: 78px;
+  font-size: 6em;
   font-weight: 400;
-  text-align: center;
 
 }
 
 h2 {
-  font-size: 38px;
-  margin: 10px;
+  font-size: 3.5em;
+  margin-bottom: 30px;
 }
 
 header {
-  margin: 50px;
-  padding: 20px;
-  background-image: url("header.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("header.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  height: 100vh;
+
 }
 
 section {
- margin: 40px 50px;
- padding: 20px;
  background-color: #efefef;
+ width: 70%;
+ margin: 100px auto 100px auto;
+ padding: 30px;
 }
 
-img {
- margin: 10px;
+hr {
+  height: 1px;
+  width: 150px;
+  color: #c4c4c4;
+  border-top: dotted 15px;
 }
 
 /************************************CLASS SELECTORS*******************************/
 
 .img-profile {
   display: block;
-  margin: 10px auto 10px auto;
+  width: 350px;
+  padding: 25px;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 50%;
 }
 
-.h2-title {
+.h1-name {
   text-align: center;
+  color: #fff;
+}
+
+.h2-title {
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+.highlighted-skills{
+  margin-top: 80px;
+  margin-bottom: 80px;
+  width: 73%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.col {
+  padding-top: 50px;
+}
+
+.icon {
+
 }
